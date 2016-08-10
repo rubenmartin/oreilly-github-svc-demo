@@ -4,16 +4,15 @@
 // the result with others (case-insensitively)
 //
 // Parameters:
-// - 'text' is the 'String' to transform
-// - 'replaceMap' is an optional 'Object' acting as a map; keys are source characters
+// - `text` is the `String` to transform
+// - `replaceMap` is an optional `Object` acting as a map; keys are source characters
 //    (or longer strings, really) and values and replacements (these will be converted
-//    to 'String' , so you can use numbers, for instance).
+//    to `String` , so you can use numbers, for instance).
 //
 // Example calls:
 //      
 //    hackerCase('lovely')  // => 'LoVeLy'
 //    hackerCase('ron weasley' . {A: 4, E:3,S:5}) => 'Ron w345l3y'
-//
 module.exports = function hackerCase(text, replaceMap) {
   var upperCase = false;
 
