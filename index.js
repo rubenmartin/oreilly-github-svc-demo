@@ -1,5 +1,7 @@
 'use strict';
 
+// Turns a 'String' into HaCkErCaSe, optionally replacing some characters in
+// the result with others (case-insensitively)
 module.exports = function hackerCase(text, replaceMap) {
   var upperCase = false;
 
