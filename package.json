@@ -2,7 +2,7 @@
   "name": "hacker-case",
   "version": "1.0.1",
   "private": "true",
-  "author": "Christophe Porteneuve <christophe@delicious-insights.com>",
+  "author": "Ruben Martin <test@test.com>",
   "scripts": {
     "test": "mocha"
   },
