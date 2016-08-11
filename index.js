@@ -20,6 +20,7 @@ module.exports = function hackerCase(text, replaceMap) {
   	 return char[(upperCase =! upperCase) ? 'toLocaleUpperCase': 'toLocaleLowerCase']();
   });
 
+
   if('object' === typeof replaceMap) {
   	 for(var src in replaceMap) {
   	 	if (replaceMap.hasOwnProperty(src)) {
