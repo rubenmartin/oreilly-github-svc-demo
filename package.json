@@ -1,6 +1,6 @@
 {
   "name": "hacker-case",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": "true",
   "author": "Christophe Porteneuve <christophe@delicious-insights.com>",
   "scripts": {
@@ -10,7 +10,6 @@
     "chai": "^3.4.1",
     "codecov": "^1.0.1",
     "istanbul": "^0.4.4",
-    "mocha": "^3.0.2"
+    "mocha": "^2.3.4"
   }
 }
-
